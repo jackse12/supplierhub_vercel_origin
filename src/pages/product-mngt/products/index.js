@@ -3,6 +3,6 @@ import AppPage from '../../../@crema/hoc/AppPage';
 import asyncComponent from '../../../@crema/utility/asyncComponent';
 
 const Products = asyncComponent(() =>
-  import('../../../modules/Product-Mngt/products'),
+  import('../../../modules/Product-Mngt/Products'),
 );
 export default AppPage(() => <Products />);
